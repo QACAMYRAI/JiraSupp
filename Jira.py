@@ -3,7 +3,7 @@ import gspread
 from selenium import webdriver
 
 # Указываем путь к JSON
-gc = gspread.service_account(filename= r'D:\Myproject\JiraSupp\python-318418-abbe0bd95ea9.json')
+gc = gspread.service_account(filename= r'C:\Users\натали\PycharmProjects\pythonProject\JiraSupp\python-318418-abbe0bd95ea9.json')
 #Открываем тестовую таблицу
 sh = gc.open("TESTSHEETS")
 
