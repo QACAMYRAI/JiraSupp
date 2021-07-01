@@ -16,7 +16,7 @@ values_list = nedded_list.col_values(5)
 
 allelements = []
 for elements in values_list:
-    if elements[:4] == "Аффе":
+    if elements[:4] == "http":
             if "\n" in elements:
                 for i in (elements.split("\n")):
                     if i not in("", ' ', '', ):
